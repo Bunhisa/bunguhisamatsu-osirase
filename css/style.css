@@ -1,12 +1,5 @@
-/**
-* Template Name: Bolt
-* Template URL: https://templatemag.com/bolt-bootstrap-agency-template/
-* Author: TemplateMag.com
-* License: https://templatemag.com/license/
-*/
-
 body {
-  background-color: #f2f2f2;
+  background-image: url(haikei.png);
   font-family: "Lato";
   font-weight: 300;
   font-size: 16px;
@@ -15,6 +8,7 @@ body {
   -webkit-overflow-scrolling: touch;
   margin-top: 70px;
 }
+
 
 /* Titles */
 
@@ -86,7 +80,10 @@ hr {
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
   color: #ffffff;
-  background-color: #74cfae;
+
+    border-radius: 10px 10px 10px 10px;
+  
+  background-color: #08ACFE;
 }
 
 .navbar-brand {
@@ -97,7 +94,7 @@ hr {
 
 .btn-theme {
   color: #ffffff;
-  background-color: #74cfae;
+  background-color: #08ACFE;
   border-color: transparent;
 }
 
@@ -114,6 +111,27 @@ hr {
 }
 
 /* WRAP SECTIONS */
+
+/* hello */
+
+#hello {
+  width: 100%;
+  padding-top: 250px;
+  padding-bottom: 250px;
+}
+
+#hello h1 {
+  font-size: 90px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  color: #08ACFE;
+}
+
+#hello h2 {
+  color: #c0c0c0;
+  font-weight: 400;
+}
+
 
 
 
